@@ -7,7 +7,7 @@ Execution of a wrong sql query only shows a debug message and dont throw an exce
 
 ```$GLOBALS['TYPO3_DB']->sql_query('SELECT not_existing_field FROM pages');```
 
-In case of using a redirect after this query ($this->redirect()) the error is no shown at all
+In case of using a redirect after this query ($this->redirect()) the error is not shown at all
 
 ## What does this extension do
 
