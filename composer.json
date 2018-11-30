@@ -1,0 +1,28 @@
+{
+    "name": "steffenmaechtel/exception_handling_for_typo3_db",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 CMS extension: Throw exception in case of error instead of show error with DebugUtility::debug",
+    "homepage": "https://github.com/steffenmaechtel/exception_handling_for_typo3_db",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "typo3"
+    ],
+    "require": {
+        "typo3/cms-core": ">=8.7.0,<8.7.999",
+        "php": ">=7.0.0,<7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteffenMaechtel\\ExceptionHandlingForTypo3Db\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steffen Maechtel",
+            "email": "info@steffen-maechtel.de",
+            "homepage": "http://www.steffen-maechtel.de/"
+        }
+    ]
+}
