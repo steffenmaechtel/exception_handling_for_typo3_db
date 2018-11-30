@@ -10,7 +10,7 @@
         "typo3"
     ],
     "conflict": {
-        "steffenmaechtel/fix_duplicate_database_connection": ">0.0.1"
+        "steffenmaechtel/fix_duplicate_database_connection": "*"
     },
     "require": {
         "typo3/cms-core": ">=8.7.0,<8.7.999",
