@@ -5,8 +5,7 @@
     "homepage": "https://github.com/steffenmaechtel/exception_handling_for_typo3_db",
     "license": "GPL-2.0-or-later",
     "keywords": [
-        "TYPO3",
-        "CMS",
+        "cms",
         "typo3"
     ],
     "conflict": {
